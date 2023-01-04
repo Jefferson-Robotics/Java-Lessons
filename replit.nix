@@ -18,4 +18,7 @@
     deps = [
         pkgs.cowsay
     ];
+    PYTHONBIN = "${pkgs.python38Full}/bin/python3.8";
+    LANG = "en_US.UTF-8";
+  };
 }
